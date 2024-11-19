@@ -1,21 +1,76 @@
+/* Reset de márgenes y padding */
 * {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
   margin: 0;
-  border: 0;
   padding: 0;
-  background-color: #fff;
+  box-sizing: border-box;
 }
 
-main {
-  margin: auto;
-  width: 50%;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.cv-container {
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-main > h1 {
+.cv-header {
   text-align: center;
-  font-size: 3.5em;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.cv-header h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.cv-header p {
+  color: #666;
+  margin-top: 5px;
+}
+
+.cv-section {
+  margin-top: 20px;
+}
+
+.cv-section h2 {
+  font-size: 1.5em;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.cv-job, .cv-education {
+  margin-bottom: 15px;
+}
+
+.cv-job h3, .cv-education h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.cv-job p, .cv-education p {
+  color: #666;
+}
+
+.cv-skills, .cv-languages {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cv-skills li, .cv-languages li {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: inline-block;
 }

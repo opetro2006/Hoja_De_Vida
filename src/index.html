@@ -1,17 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <div class="cv-container">
+        <header class="cv-header">
+            <h1>Nombre Completo</h1>
+            <p>Tu título o posición deseada</p>
+            <p>Teléfono: +123 456 7890 | Email: ejemplo@correo.com | Ciudad, País</p>
+        </header>
 
+        <section class="cv-section">
+            <h2>Perfil</h2>
+            <p>Profesional con experiencia en [área de experiencia]. Motivado/a y con habilidades para [habilidades relevantes], enfocado/a en [objetivo profesional].</p>
+        </section>
+
+        <section class="cv-section">
+            <h2>Experiencia Laboral</h2>
+            <div class="cv-job">
+                <h3>Puesto de trabajo</h3>
+                <p>Empresa | Fecha de inicio - Fecha de finalización</p>
+                <ul>
+                    <li>Descripción de tus logros y responsabilidades en esta posición.</li>
+                    <li>Otro logro importante o tarea realizada.</li>
+                </ul>
+            </div>
+            <div class="cv-job">
+                <h3>Otro puesto de trabajo</h3>
+                <p>Otra Empresa | Fecha de inicio - Fecha de finalización</p>
+                <ul>
+                    <li>Descripción de tus logros y responsabilidades en esta posición.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h2>Educación</h2>
+            <div class="cv-education">
+                <h3>Nombre del título</h3>
+                <p>Institución Educativa | Año de graduación</p>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h2>Habilidades</h2>
+            <ul class="cv-skills">
+                <li>Habilidad 1</li>
+                <li>Habilidad 2</li>
+                <li>Habilidad 3</li>
+                <li>Habilidad 4</li>
+            </ul>
+        </section>
+
+        <section class="cv-section">
+            <h2>Idiomas</h2>
+            <ul class="cv-languages">
+                <li>Idioma 1 - Nivel (por ejemplo, avanzado)</li>
+                <li>Idioma 2 - Nivel (por ejemplo, intermedio)</li>
+            </ul>
+        </section>
+    </div>
+</body>
 </html>
